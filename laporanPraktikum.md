@@ -3,21 +3,34 @@
 
 ## Unguided 
 
-### 1. [Soal]
-#### soal1.go
+### 1. [string.go]
+#### string.go
 
 ```go
 package main
-
 import "fmt"
-
 func main() {
-	fmt.Println("Hello Jack!")
+var (
+satu, dua, tiga string
+temp string
+)
+fmt.Print("Masukan input string: ")
+fmt.Scanln(&satu)
+fmt.Print("Masukan input string: ")
+fmt.Scanln(&dua)
+fmt.Print("Masukan input string: ")
+fmt.Scanln(&tiga)
+fmt.Println("Output awal = " + satu + " " + dua + " " + tiga)
+temp = satu
+satu = dua
+dua = tiga
+tiga = temp
+fmt.Println("Output akhir = " + satu + " " + dua + " " + tiga)
 }
 ```
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/shellyneu/103112430114_Shellyn/blob/main/modul1/output/output-soal1.png)
+![Screenshot Output Unguided 1_1](output/image.png)
 [penjelasan]
-
+blablabalbakidiahi
