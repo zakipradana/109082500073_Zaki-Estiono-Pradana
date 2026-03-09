@@ -31,7 +31,7 @@ fmt.Println("Output akhir = " + satu + " " + dua + " " + tiga)
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https:/github.com/zakipradana/109082500073/blob.main/PRAKTIKUM/Praktikukm Week1/output/)
+![Screenshot Output Unguided 1_1] (https:/github.com/zakipradana/109082500073_Zaki-Estiono-Pradana/blob/main/PRAKTIKUM/Praktikukm-Week1/output/stringimage.png)
 
 ##### Output 
 [penjelasan]
