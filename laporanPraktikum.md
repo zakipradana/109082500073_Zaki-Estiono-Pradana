@@ -31,6 +31,9 @@ fmt.Println("Output akhir = " + satu + " " + dua + " " + tiga)
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](output/image.png)
+![Screenshot Output Unguided 1_1](https:/github.com/zakipradana/109082500073/blob.main/PRAKTIKUM/Praktikukm Week1/output/)
+
+##### Output 
 [penjelasan]
-blablabalbakidiahi
+Kode pemograman ditas merupakan pemograman sederhana yang berfungsi membaca tiga inputan bertipe data string dan menggeser satu langkah output tersebut sebagai output akhir. Variabel "satu, dua, tiga" merupakan variabel bertipe data string, variabel "temp" bertipe data string sebagai variabel temporary yang berfungsi untuk menyimpan sementera. Ketika menginputakan "aku", "dia", "kamu" maka output awal akan muncul "aku dia kamu" sesuai dengan urutan disimpan divariabel "satu, dua, tiga". Kemudian output akhir akan menggeser satu langkah, dimana variabel "temp" akan menyimpan dari data variabel "satu" kemudian berganti, variabel "satu" menyimpan dari data variabel "dua", variabel "dua" akan menyimpan variabel "tiga" kemudian variabel "tiga" akan menyimpan dari variabel "temp" yang isinya variabel "satu" sehingga output awal akan muncul "dia kamu aku"
+
