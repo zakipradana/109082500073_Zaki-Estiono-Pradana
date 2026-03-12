@@ -3,29 +3,29 @@
 
 ## Unguided 
 
-### 1. [Telusuri program berikut dengan cara mengkompilasi dan mengeksekusi program. Silakan masukan data yang sesuai sebanyak yang diminta program. Perhatikan keluaran yang diperoleh. Coba terangkan apa sebenarnya yang dilakukan program tersebut?]
+### 1. Telusuri program berikut dengan cara mengkompilasi dan mengeksekusi program. Silakan masukan data yang sesuai sebanyak yang diminta program. Perhatikan keluaran yang diperoleh. Coba terangkan apa sebenarnya yang dilakukan program tersebut?
 #### string.go
 
 ```go
 package main
 import "fmt"
 func main() {
-var (
-satu, dua, tiga string
-temp string
-)
-fmt.Print("Masukan input string: ")
-fmt.Scanln(&satu)
-fmt.Print("Masukan input string: ")
-fmt.Scanln(&dua)
-fmt.Print("Masukan input string: ")
-fmt.Scanln(&tiga)
-fmt.Println("Output awal = " + satu + " " + dua + " " + tiga)
-temp = satu
-satu = dua
-dua = tiga
-tiga = temp
-fmt.Println("Output akhir = " + satu + " " + dua + " " + tiga)
+	var (
+		satu, dua, tiga string
+		temp string
+	)
+	fmt.Print("Masukan input string: ")
+	fmt.Scanln(&satu)
+	fmt.Print("Masukan input string: ")
+	fmt.Scanln(&dua)
+	fmt.Print("Masukan input string: ")
+	fmt.Scanln(&tiga)
+	fmt.Println("Output awal = " + satu + " " + dua + " " + tiga)
+	temp = satu
+	satu = dua
+	dua = tiga
+	tiga = temp
+	fmt.Println("Output akhir = " + satu + " " + dua + " " + tiga)
 }
 ```
 ### Output Unguided :
@@ -38,7 +38,7 @@ fmt.Println("Output akhir = " + satu + " " + dua + " " + tiga)
 Kode pemograman ditas merupakan pemograman sederhana yang berfungsi membaca tiga inputan bertipe data string dan menggeser satu langkah output tersebut sebagai output akhir. Variabel "satu, dua, tiga" merupakan variabel bertipe data string, variabel "temp" bertipe data string sebagai variabel temporary yang berfungsi untuk menyimpan sementera. Ketika menginputakan "aku", "dia", "kamu" maka output awal akan muncul "aku dia kamu" sesuai dengan urutan disimpan divariabel "satu, dua, tiga". Kemudian output akhir akan menggeser satu langkah, dimana variabel "temp" akan menyimpan dari data variabel "satu" kemudian berganti, variabel "satu" menyimpan dari data variabel "dua", variabel "dua" akan menyimpan variabel "tiga" kemudian variabel "tiga" akan menyimpan dari variabel "temp" yang isinya variabel "satu" sehingga output awal akan muncul "dia kamu aku"
 
 
-### 2. [Siswa kelas IPA di salah satu sekolah menengah atas di Indonesia sedang mengadakann praktikum kimia. Di setiap percobaan akan menggunakan 4 tabung reaksi, yang mana susunan warna cairan di setiap tabung akan menentukan hasil percobaan. Siswa diminta untuk mencatat hasil percobaan tersebut. Percobaan dikatakan berhasil apabila susunan warna zat cair pada gelas 1 hingga gelas 4 secara berturutan adalah ‘merah’, ‘kuning’, ‘hijau’, dan ‘ungu’ selama 5 kali percobaan berulang. Buatlah sebuah program yang menerima input berupa warna dari ke 4 gelas reaksi  sebanyak 5 kali percobaan. Kemudian program akan menampilkan true apabila urutan warna sesuai dengan informasi yang diberikan pada paragraf sebelumnya, dan false untuk urutan warna lainnya.]
+### 2. Siswa kelas IPA di salah satu sekolah menengah atas di Indonesia sedang mengadakann praktikum kimia. Di setiap percobaan akan menggunakan 4 tabung reaksi, yang mana susunan warna cairan di setiap tabung akan menentukan hasil percobaan. Siswa diminta untuk mencatat hasil percobaan tersebut. Percobaan dikatakan berhasil apabila susunan warna zat cair pada gelas 1 hingga gelas 4 secara berturutan adalah ‘merah’, ‘kuning’, ‘hijau’, dan ‘ungu’ selama 5 kali percobaan berulang. Buatlah sebuah program yang menerima input berupa warna dari ke 4 gelas reaksi  sebanyak 5 kali percobaan. Kemudian program akan menampilkan true apabila urutan warna sesuai dengan informasi yang diberikan pada paragraf sebelumnya, dan false untuk urutan warna lainnya.
 #### warnakimia.go
 
 ```go
@@ -71,7 +71,7 @@ func main() {
 [penjelasan]
 Kode pemograman ditas merupakan pemograman sederhana yang berfungsi untuk mencatat hasil percobaan kimia sebanyak 5 kali percobaan dengan 4 tabung reaksi dengan ketentuan urutan warna merah, kuning, hijau, ungu. percobaan dinyatakan berhasil apabila susunan warna sebanyak 5 kali sama semua sesuai dengan ketentuan. Dengan menggunakan variabel "w1", "w2", "w3", "w4" dengan tipe data string, variabel i dengan tipe data integer, dan variabel "status' dengan tipe data boolean. Nilai kebenaran awal variabel status yaitu "true". Untuk melalukan inputan berulangan sebanyak 5 kali maka menggunakan perulangan, dimana inisiasi dimulai dari 1 dan berhenti ketika sebanyak 5 kali, dimana setiap inisiasi bertambah 1. aksi dari perulangan tersebut yaitu melakukan inputan percobaan yang disimpan ke variabel "w1", "w2", "w3", "w4", sampai dengan 5 kali perulangan. inputan bernilai true atau benar ketika sesuai dengan ketentuan warna yaitu merah, kuning, hijau, ungu. ketika salah satu percobaan terdapat input warna berbeda maka output berhasil akan bernilai false, namun jika sesuai maka bernilai true.
 
-### 2. [PT POS membutuhkan aplikasi perhitungan biaya kirim berdasarkan berat parsel. Maka, buatlah program BiayaPos untuk menghitung biaya pengiriman tersebut dengan ketentuan sebagai berikut! Dari berat parsel (dalam gram), harus dihitung total berat dalam kg dan sisanya (dalam gram). Biaya jasa pengiriman adalah Rp. 10.000,- per kg. Jika sisa berat tidak kurang dari 500 gram, maka tambahan biaya kirim hanya Rp. 5,- per gram saja. Tetapi jika kurang dari 500 gram, maka tambahan biaya akan dibebankan sebesar Rp. 15,- per gram. Sisa berat (yang kurang dari 1kg) digratiskan biayanya apabila total berat ternyata lebih dari 10kg.]
+### 3. PT POS membutuhkan aplikasi perhitungan biaya kirim berdasarkan berat parsel. Maka, buatlah program BiayaPos untuk menghitung biaya pengiriman tersebut dengan ketentuan sebagai berikut! Dari berat parsel (dalam gram), harus dihitung total berat dalam kg dan sisanya (dalam gram). Biaya jasa pengiriman adalah Rp. 10.000,- per kg. Jika sisa berat tidak kurang dari 500 gram, maka tambahan biaya kirim hanya Rp. 5,- per gram saja. Tetapi jika kurang dari 500 gram, maka tambahan biaya akan dibebankan sebesar Rp. 15,- per gram. Sisa berat (yang kurang dari 1kg) digratiskan biayanya apabila total berat ternyata lebih dari 10kg.
 #### warnakimia.go
 
 ```go
