@@ -42,7 +42,6 @@ Kode pemograman ditas merupakan pemograman sederhana yang berfungsi untuk menghi
 
 
 ### 2. 2) Buatlah sebuah program yang digunakan untuk menampilkan pola bintang berikut ini dengan menggunakan fungsi rekursif. N adalah masukan dari user.
-(https://github.com/zakipradana/109082500073_Zaki-Estiono-Pradana/blob/main/PraktikumWeek5/output/soalcetakbintang.png)
 
 #### cetakbintang.go
 
@@ -77,7 +76,7 @@ func main() {
 [penjelasan]
 Kode pemograman ditas merupakan pemograman sederhana yang berfungsi untuk menampilkan pola bintang dengan fungsi rekrusif. Fungsi rekrusif pada kode ini bernama cetak bintang dengan "n" sebagai paramater bertipe data integer. untuk menentukan pola dan menampilkan bintang seperti segitiga menggunakan percabangan dan perulangan, percabangan dilakukan untuk tidak mengeksekusi nilai "n" ketika bernilai 0, Ketika nilai "n" lebih dari 1 maka fungsi rekrusif berjalan dengan n-1, hal ini agar mencetak bintang dari yang terkecil hingga terbesar. Untuk  membentuk polanya digunakan perulangan dengan inisiasi "i" bernilai 1, dengan kondisi selama i <- n maka setiap iterasi akan bertambah 1, Setiap perulangan berjalan, Program akan mencetak simbol "*" sebanuyak nilai "i" dengan pola mengurut kebawah dan mengulang sampai perulangan selesai. Untuk menampilkan polanya maka perlu pemanggilan fungsi rekrusif pada fungsi utama main. Pada fungsi utama terdapat variabel "n" bertipe data integer yang berfungsi untuk mendeklrasikan nilai input. Kemudian terdapat pemanggilan fungsi rekrusif yaitu "cetakbintang", nilai "n" akan bersifat argumen dan diterukan ke fungsi rekrusif untuk dijalankan pada fungsi rekrusif.
 
-### 3. SBuatlah program yang mengimplementasikan rekursif untuk menampilkan faktor bilangan dari suatu N, atau bilangan yang apa saja yang habis membagi N.
+### 3. Buatlah program yang mengimplementasikan rekursif untuk menampilkan faktor bilangan dari suatu N, atau bilangan yang apa saja yang habis membagi N.
 Masukan terdiri dari sebuah bilangan bulat positif N.
 Keluaran terdiri dari barisan bilangan yang menjadi faktor dari N (terurut dari 1 hingga N ya).
 #### faktor.go
