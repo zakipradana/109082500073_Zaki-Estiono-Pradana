@@ -300,7 +300,7 @@ func main() {
 [penjelasan]
 Kode pemograman ditas merupakan pemograman sederhana yang berfungsi untuk merekap skor pertandingan bola 2 buah klub bola yang berlaga. terdapat prosedur untuk menentukan pemenang dengan parameter skorA, SkorB, index beripe data integer KlubA, KlubB bertipe data string dan array dengan maksimal indeks 100. Syarat pemenang yaitu jika skorA > skorB maka yang menang klubA, jika skorB > skorA maka yang menang klubB, namun jika seri maka menyatakan Draw. Pada fungsi utama terdapat variabel SkorA, SKorB bertipe data integer sebagai input skor masing-masing klub, KlubA, KlubB bertipe data string berfungsi untuk menginputkan nama klub. variabel pemenang sebagai array untuk menyimpan hasil/pemenang tiap pertandingan, nilai inisialisasi dimulai dari 0. Kemudian terdapat perulangan untuk menginputkan Skor masing-masing klub dan berhenti ketika skorA atau skorB bernilai < 0 atau bernilai -1, jika berhenti maka memanggil prosedur penentupemenang. kemudian ditampilkan semua hasil yang sudah disimpan dengan perulangan.
 
-### 3. sebuah array digunakan untuk menampung sekumpulan karakter, Anda diminta untuk membuat sebuah subprogram untuk melakukan membalikkan urutan isi array dan memeriksa apakah membentuk palindrom.
+### 4. Sebuah array digunakan untuk menampung sekumpulan karakter, Anda diminta untuk membuat sebuah subprogram untuk melakukan membalikkan urutan isi array dan memeriksa apakah membentuk palindrom.
 #### palindrom.go
 
 ```go
@@ -380,7 +380,7 @@ func main(){
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/zakipradana/109082500073_Zaki-Estiono-Pradana/blob/main/PraktikumWee7/output/palindrom.png)
+![Screenshot Output Unguided 1_1](https://github.com/zakipradana/109082500073_Zaki-Estiono-Pradana/blob/main/PraktikumWeek7/output/palindrom.png)
 
 ##### Output 
 [penjelasan]
