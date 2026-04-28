@@ -100,8 +100,8 @@ func deviasi(arr [100]int, n int) {
 }
 
 // h
-func frekuensi(arr [100]int, n int, cari int) {
-	var freq int
+func frekuensi(arr [100]int, n int, cari int, freq int) {
+	//var freq int
 	for i := 0; i < n; i++ {
 		if arr[i] == cari {
 			freq++
